@@ -1,0 +1,48 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical">
+	<!--<TableRow 
+	    android:layout_height="130dp"
+		android:layout_width="fill_parent" 
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:weightSum="1">
+		 <ImageView 
+		   android:contentDescription="@string/author_email"
+		   android:layout_width="0dp"
+		   android:layout_gravity="center"
+		   android:layout_height="115dp"
+		   android:layout_weight="0.5"
+		   android:src="@drawable/about_pic" />
+	</TableRow>-->
+	<TableRow 
+	    android:layout_height="wrap_content"
+		android:layout_width="wrap_content">
+		<TextView 
+		   android:id="@+id/info_description"
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:textSize="30sp"
+		   android:layout_gravity="center_vertical|center_horizontal"
+		   android:textColor="#FFFFFF"
+		   />
+	</TableRow> 
+	<TableRow
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        style="@android:style/ButtonBar"
+        android:baselineAligned="true">
+
+        <Button
+            android:id="@+id/button_acept"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/aceptar" />
+ 
+    </TableRow>
+</TableLayout>

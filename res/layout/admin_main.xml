@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:layout_alignTop="@+id/relativeLayout"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/sectorderecho"
+            android:layout_alignBottom="@+id/relativeLayout"
+            android:scaleType="fitXY"
+            android:layout_toRightOf="@+id/relativeLayout"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/fondo"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/relativeLayout"
+            android:scaleType="fitXY"/>
+
+    <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="406dp"
+            android:layout_height="150dp"
+            android:background="@drawable/header"
+            android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp">
+
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/text_user_thank_you"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:gravity="left|bottom"
+            android:paddingLeft="40dp"
+            android:text="Usuario Administrador"
+            android:textColor="#FFCC00"
+            android:textSize="40sp"
+            android:layout_alignTop="@+id/button_exit"
+            android:layout_alignLeft="@+id/imageView3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+    <ImageButton
+            android:id="@+id/button_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_gravity="right|bottom"
+            android:layout_weight="0.5"
+            android:background="@color/transparent"
+        android:src="@drawable/salir"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="30dp" />
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:src="@drawable/basedown"
+            android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:scaleType="fitXY"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp" />
+
+        <TextView
+                android:id="@+id/customer_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical|left"
+                android:text="Para limpiar alguna de las líneas apoye el vaso en donde corresponda."
+                android:textColor="#FFCC00"
+                android:textSize="45dp"
+                android:textAlignment="viewStart"
+                android:singleLine="false"
+                android:layout_below="@+id/textView"
+                android:layout_alignRight="@+id/imageView4"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"/>
+
+        <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical|left"
+                android:text="Bienvenido!"
+                android:textColor="#FFCC00"
+                android:textSize="45dp"
+                android:layout_marginTop="70dp"
+                android:textAlignment="viewStart"
+                android:singleLine="false"
+                android:layout_alignTop="@+id/imageView4"
+                android:layout_alignLeft="@+id/customer_balance"
+                android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

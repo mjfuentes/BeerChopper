@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="default_text_color">#FFFFFF</color>
+    <color name="background">#999999</color>
+    <color name="producto_regalado">#088A08</color>
+    <color name="background_2">#777777</color>
+    <color name="header">#555555</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="black">#222222</color>
+    <color name="blue">#0099CC</color>
+    <color name="violet">#9933CC</color>
+    <color name="green">#669900</color>
+    <color name="green_custom">#669900</color>
+    <color name="lgreen">#C5E26D</color>
+    <color name="orange">#FF8800</color>
+    <color name="red">#CC0000</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="lgray">#AAAAAA</color>
+    <color name="lblue">#8AD5F0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#E3E51F</color>
+	<color name="selected">#8e8f91</color>
+	<color name="textselected">#1A171B</color>
+	<color name="rubia">#FFDD00</color>
+	<color name="roja">#9D0D16</color>
+	<color name="negra">#1A171B</color>
+	<color name="vostok">#5A2012</color>
+</resources>

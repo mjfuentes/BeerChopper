@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="400dp"
+    android:minWidth="950dp" 
+    android:background="@color/black"
+    android:minHeight="453dp">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/sectorderecho"
+            android:scaleType="fitXY"
+            android:layout_alignTop="@+id/relativeLayout"
+            android:layout_alignBottom="@+id/relativeLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/imageView"/>
+
+    <ImageView
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/basedown"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/basedown"
+            android:layout_alignTop="@+id/textView"
+            android:scaleType="fitXY"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignRight="@+id/textView"/>
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dip"
+            android:text="Analizando..."
+            android:textColor="#FFCC00"
+            android:textSize="40dp"
+            android:layout_marginTop="72dp"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_alignRight="@+id/imageView"
+            android:layout_alignLeft="@+id/relativeLayout"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+    <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="406dp"
+            android:layout_height="150dp"
+            android:background="@drawable/header"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="false"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

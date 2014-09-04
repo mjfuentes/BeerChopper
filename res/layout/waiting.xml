@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp" >
+
+        <ImageView
+            android:layout_width="406dp"
+            android:layout_height="150dp"
+            android:background="@color/transparent"
+            android:paddingRight="4dp"
+            android:src="@drawable/header" />
+
+        <LinearLayout
+            android:id="@+id/sector_derecho"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/sectorderecho"
+            android:orientation="horizontal"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="4dp"
+            android:weightSum="2" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:gravity="left|bottom"
+                android:orientation="horizontal"
+                android:paddingLeft="40dp"
+                android:weightSum="2" >
+
+                <TextView
+                    android:id="@+id/text_user_thank_you"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:background="@color/transparent"
+                    android:gravity="left|bottom"
+                    android:text="@string/thank_you"
+                    android:textColor="#FFCC00"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:id="@+id/text_user_name"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.9"
+                    android:background="@color/transparent"
+                    android:gravity="left|bottom"
+                    android:paddingLeft="10dp"
+                    android:textColor="#FFCC00"
+                    android:textSize="48sp"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo"
+        android:paddingBottom="30dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="50dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/basedown"
+            android:orientation="vertical"
+                >
+
+            <TextView
+                android:id="@+id/text_choose_measure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="@string/rotate_your_pint"
+                android:textColor="#FFFFFF"
+                android:textSize="38sp"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="349dp"
+                    android:layout_height="240dp"
+                    android:src="@drawable/vasoinclinado"
+                    android:id="@+id/vaso"
+                    android:layout_marginLeft="50dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

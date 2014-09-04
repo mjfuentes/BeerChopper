@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:layout_alignTop="@+id/relativeLayout"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/sectorderecho"
+            android:layout_alignBottom="@+id/relativeLayout"
+            android:scaleType="fitXY"
+            android:layout_toRightOf="@+id/relativeLayout"/>
+
+    <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="406dp"
+            android:layout_height="150dp"
+            android:background="@drawable/header"
+            android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+        android:layout_marginRight="2dp">
+
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/text_user_thank_you"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:gravity="left|bottom"
+        android:text="@string/thank_you"
+            android:textColor="#FFCC00"
+            android:textSize="28dp"
+            android:layout_alignTop="@+id/relativeLayout"
+            android:layout_toRightOf="@+id/relativeLayout"
+            android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+            android:id="@+id/text_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.9"
+            android:background="@color/transparent"
+            android:gravity="left|top"
+        android:textColor="#FFCC00"
+            android:textSize="28dp"
+        android:text="user name"
+        android:maxLines="2"
+        android:layout_alignTop="@+id/text_user_thank_you"
+        android:layout_toRightOf="@+id/text_user_thank_you"
+        android:layout_marginLeft="10dp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@drawable/fondo"
+            android:scaleType="fitXY"
+            android:layout_marginTop="2dp" />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:src="@drawable/basedown"
+            android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:scaleType="fitXY"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:layout_alignBottom="@+id/imageView2" />
+
+        <TextView
+                android:id="@+id/your_last_consume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/your_last_consume_was"
+                android:textColor="#FFCC00"
+                android:textSize="52sp"
+            android:layout_alignTop="@+id/imageView4"
+            android:layout_alignLeft="@+id/imageView4"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="90dp" />
+
+        <TextView
+                android:id="@+id/your_last_consume_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=" $ 25"
+                android:textColor="#FFCC00"
+                android:textSize="52sp"
+                android:layout_alignTop="@+id/your_last_consume"
+                android:layout_toRightOf="@+id/your_last_consume"/>
+
+        <TextView
+                android:id="@+id/your_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/there_are"
+                android:textColor="#FFCC00"
+                android:textSize="52sp"
+                android:layout_below="@+id/your_last_consume"
+                android:layout_alignLeft="@+id/your_last_consume"
+                android:layout_marginLeft="50dp"/>
+
+        <TextView
+                android:id="@+id/current_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=" $ 75"
+                android:textColor="#FFCC00"
+                android:textSize="52sp"
+                android:layout_below="@+id/your_last_consume"
+                android:layout_toRightOf="@+id/your_balance"/>
+
+        <TextView
+                android:id="@+id/in_your_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/your_account"
+                android:textColor="#FFCC00"
+                android:textSize="52sp"
+                android:layout_below="@+id/your_last_consume"
+                android:layout_toRightOf="@+id/current_amount"
+            android:layout_marginLeft="10dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

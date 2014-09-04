@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+            android:key="APP_MODE"
+            android:title="Seleccionar modo"
+            android:summary="Seleccionar entre servicio rapido y servicio personalizado"
+            android:entries="@array/modos"
+            android:entryValues="@array/values"
+            android:defaultValue="Ferias"/>
+    <EditTextPreference
+            android:key="HOST_NAME"
+            android:title="Modificar IP"
+            android:defaultValue="http://rc1.dyndns-server.com:24733/chopera-digital/"
+            android:summary="Cambiar la IP de conexion" />
+    <EditTextPreference
+            android:key="ALBUM_ID"
+            android:title="Modificar Album ID de Imgur"
+            android:defaultValue=""
+            android:summary="Las imagenes del Screensaver se leeran de aqui" />
+    <EditTextPreference
+            android:key="CHOPPER_NUMBER"
+            android:title="Modificar N° chopera"
+            android:numeric="integer"
+            android:defaultValue="1"
+            android:summary="Cambiar numero de chopera" />
+</PreferenceScreen>

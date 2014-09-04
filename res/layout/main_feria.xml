@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:layout_alignTop="@+id/relativeLayout"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/sectorderecho"
+            android:layout_alignBottom="@+id/relativeLayout"
+            android:scaleType="fitXY"
+            android:layout_toRightOf="@+id/relativeLayout"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/fondo"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/relativeLayout"
+            android:scaleType="fitXY"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:src="@drawable/basedown"
+        android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignBottom="@+id/imageView2" />
+
+    <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="406dp"
+            android:layout_height="150dp"
+            android:background="@drawable/header"
+            android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp">
+
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/text_user_thank_you"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:gravity="left|bottom"
+        android:text="@string/thank_you"
+            android:textColor="#FFCC00"
+            android:textSize="28dp"
+            android:layout_alignTop="@+id/relativeLayout"
+            android:layout_toRightOf="@+id/relativeLayout"
+            android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp" />
+
+    <TextView
+            android:id="@+id/text_choose_measure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="0.97"
+            android:paddingLeft="20dp"
+            android:text="@string/rotate_your_pint"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp" />
+
+    <ImageButton
+            android:id="@+id/button_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_gravity="right|bottom"
+            android:layout_weight="0.5"
+            android:background="@color/transparent"
+        android:src="@drawable/salir"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+            android:id="@+id/textGoesHere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@color/transparent"
+            android:gravity="right"
+            android:text="08"
+            android:textColor="@color/red"
+            android:textSize="40sp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp" />
+
+    <ImageView
+            android:contentDescription="@string/inclinar_vaso"
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:layout_weight="0.3"
+            android:src="@drawable/vasoinclinado"
+            android:id="@+id/imageView5"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/text_choose_measure"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignRight="@+id/text_choose_measure" />
+
+    <TextView
+            android:id="@+id/customer_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="right|center_vertical"
+            android:padding="10dip"
+            android:text="@string/your_balance"
+            android:textColor="#FFCC00"
+            android:textSize="38sp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignLeft="@+id/text_user_thank_you"
+        android:layout_marginTop="90dp" />
+
+    <TextView
+            android:id="@+id/your_last_use"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="right|center_vertical"
+            android:padding="10dip"
+            android:text="@string/your_last_use"
+            android:textColor="#FFCC00"
+            android:textSize="25sp"
+            android:layout_below="@+id/customer_balance"
+            android:layout_alignLeft="@+id/customer_balance"/>
+
+    <TextView
+            android:id="@+id/customer_balance_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="left|center_vertical"
+            android:padding="10dip"
+            android:textColor="#FFCC00"
+            android:textSize="38sp"
+            android:layout_alignTop="@+id/customer_balance"
+            android:layout_toRightOf="@+id/customer_balance"/>
+
+    <TextView
+            android:id="@+id/last_consume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="left|center_vertical"
+            android:padding="10dip"
+            android:textColor="#FFCC00"
+            android:textSize="25sp"
+            android:layout_alignTop="@+id/your_last_use"
+            android:layout_toRightOf="@+id/your_last_use"/>
+
+    <TextView
+            android:id="@+id/text_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:gravity="left|bottom"
+        android:text="user name "
+            android:textColor="#FFCC00"
+            android:textSize="28dp"
+            android:maxLines="1"
+        android:layout_alignTop="@+id/text_user_thank_you"
+        android:layout_toRightOf="@+id/text_user_thank_you"
+        android:layout_marginLeft="10dp" />
+
+</RelativeLayout>

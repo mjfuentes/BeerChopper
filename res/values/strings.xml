@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chopera Digital</string>
+    <string name="title_header">Cerveza LARSEN - 100% Natural</string>
+    <string name="waiting_card">Por favor acerque la tarjeta debajo del lector...</string>
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="your_balance">Tu saldo es de</string>
+    <string name="your_last_use">Tu último consumo fue de</string>
+    <string name="logout_label">Salir</string>
+	<string name="verificando">Verificando...</string>
+    <string name="error_login">Error en el login.</string>
+    <string name="config_title">Complete los campos de configuración</string>
+	<string name="config_host_label">Host:</string>
+    <string name="config_chopper_number_label">Número de Chopera:</string>
+    <string name="config_default_chopper_number">1</string>
+	<string name="config_default_host">rc1.dyndns-server.com:24732/chopera-digital/</string>
+	<string name="aceptar">Aceptar</string>
+	<string name="cancelar">Cancelar</string>
+	<string name="error_required_url">Ingrese una URL válida</string>
+	<string name="chopera_digital">Chopera Digital</string>
+	<string name="crash_toast_text"></string>
+	<string name="inclinar_vaso">Recordá inclinar el vaso</string>
+	<string name="font_museo_slab_300">fonts/Museo_Slab_300italic.otf</string>
+	<string name="font_museo_700">fonts/Museo700-Regular.otf</string>
+	<string name="font_museo_slab_700">fonts/Museo_Slab_700italic.otf</string>
+	<string name="font_museo_900">fonts/Museo900-Regular.otf</string>
+	<string name="font_museo_Slab_500">fonts/Museo_Slab_5.otf</string>
+	<string name="font_ds_digib">fonts/ds-digib.ttf</string>
+	<string name="rotate_your_pint">Recordá inclinar el vaso</string>
+	<string name="thank_you">¡Gracias</string>
+    <string-array name="modos">
+        <item>"Servicio Rapido"</item>
+        <item>"Servicio Personalizado"</item>
+    </string-array>
+    <string-array name="values">
+        <item>"Ferias"</item>
+        <item>"Bares"</item>
+    </string-array>
+    <string name="seleccione_cerveza">Seleccione la cerveza:</string>
+    <string name="confirmation">Confirmación</string>
+    <string name="confirmation_body">¿Desea confirmar la cerveza</string>
+    <string name="aditional_info_title">Info adicional de cerveza</string>
+    <string name="choose_presentation">Seleccione el tamaño de la cerveza</string>
+    <string name="beer_choosen">Ha seleccionado la cerveza</string>
+    <string name="beer_presentation">con tamaño</string>
+    <string name="yes">SI</string>
+    <string name="no">NO</string>
+    <string name="start">COMENZAR</string>
+    <string name="cancelar_upper_case">CANCELAR</string>
+
+    <string name="hello">¡Hola</string>
+    <string name="your_amount_is">Tu saldo es de</string>
+    <string name="your_last_consume_is">Tu último consumo fue de $</string>
+    <string name="your_last_consume_was">Tu último consumo fue de</string>
+    <string name="there_are">Quedan</string>
+    <string name="your_account">en tu cuenta</string>
+</resources>
